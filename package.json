@@ -1,0 +1,15 @@
+{
+  "name": "cheerio_class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  }
+}
