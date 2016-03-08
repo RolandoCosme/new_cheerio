@@ -5,7 +5,6 @@ request('http://slickdeals.net/', function (error, response, html) {
   var $ = cheerio.load(html);
   var result = [];
   $('.itemImageLink').each(function(i, element){
-    var a = $(this).text();
     var link = $(this).attr('href');
     var title = $(this).attr('title');
     //scrape some stuff, put it in an object and add it to the result array
